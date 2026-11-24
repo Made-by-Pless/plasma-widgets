@@ -137,7 +137,7 @@ Loaded models show their size, quantization and context length ("12.2B · Q4_K_M
 
 ## Install
 
-Download the widget's `.plasmoid` file from the [latest release](https://github.com/pless84/plasma-widgets/releases/latest). Then right-click the panel or desktop → **Add Widgets** → **Get New** → **Install Widget From Local File…**, or run:
+Download the widget's `.plasmoid` file from the [latest release](https://github.com/Made-by-Pless/plasma-widgets/releases/latest). Then right-click the panel or desktop → **Add Widgets** → **Get New** → **Install Widget From Local File…**, or run:
 
 ```sh
 kpackagetool6 -t Plasma/Applet -i githubstatus.plasmoid
@@ -146,7 +146,7 @@ kpackagetool6 -t Plasma/Applet -i githubstatus.plasmoid
 Or install from a clone:
 
 ```sh
-git clone https://github.com/pless84/plasma-widgets.git
+git clone https://github.com/Made-by-Pless/plasma-widgets.git
 cd plasma-widgets
 kpackagetool6 -t Plasma/Applet -i githubstatus   # repeat for each widget you want
 ```
